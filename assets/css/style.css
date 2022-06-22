@@ -62,20 +62,21 @@ ul li label{
 button{
     background-color: blueviolet;
     color: #fff;
-    border: none;
+    border-radius: 5rem;
     display: block;
-    width: 100%;
+    width: 50%;
     cursor: pointer;
     font-size: 30px;
     font-family: 'Pacifico', sans-serif;
-    padding: 1.3rem;
+    padding: 1rem;
+    margin-left: 10rem;
 }
 
 button:hover{
     background-color: black;
 }
 
-button :focus{
+button:focus{
     outline: none;
     background-color: green;
 }
