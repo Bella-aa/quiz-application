@@ -63,7 +63,7 @@ const quizData = [
 ];
 
 const quiz = document.getElementById('quiz')
-const answer = document.querySelectorAll('.answer')
+const answersElements = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
@@ -89,18 +89,24 @@ function loadQuiz(){
     d_text.innerText = currentQuizData.d
 
 }
-
+ 
 function deselectAnswers() {
-    answerEls.forEach(answerEls => {
-        if(answerEl.checked){
-            answer = answerEl.id
+    let selectedAnswer = "a";
+    answersElements.forEach(answer => {
+        if(answer.checked){
+            selectedAnswer = answer.id
+            answer.checked = false
         }
     })
-    return answer
+    return selectedAnswer
 }
 
+
+
 submitBtn.addEventListener('click' , () =>{
-    const answer = getSelected()
+  
+    const answer = deselectAnswers()
+  console.log(answer)
     if(answer) {
         if(answer === quizData[currentQuiz].correct){
             score++
