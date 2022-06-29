@@ -1,10 +1,10 @@
 const quizData = [
 
     {
-    question: "What sport has a toe pick",
+    question: "What sport uses a racket?",
     a: "Basketball",
     b: "Hockey",
-    c: "Figure Skating",
+    c: "Tennis",
     d: "Golf",
     correct: "c",
 

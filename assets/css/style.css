@@ -2,34 +2,40 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
+    background: linear-gradient(87.4deg, rgb(174, 82, 154) 1.9%, rgb(81, 50, 114) 49.7%, rgb(83, 54, 54) 100.5%);
     font-family: 'Poppins', sans-serif;
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     height: 100vh;
-    overflow: hidden;
+    width: 100vw;
     margin: 0;
 }
 
-.quiz-name{
-    margin-bottom: 600px;
+h1{
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    padding-bottom: 50px;
+    font-size: 3.5rem;
+    font-weight: 500;
     margin-left: 3rem;
+    color: rgb(174, 82, 154);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+   
 }
 
 
 .quiz-container{
-    background-color: aqua;
+    background-color:rgb(223, 228, 247) ;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
     width: 600px;
     overflow: hidden;
-    margin-right: auto;
 
 }
 
@@ -60,8 +66,8 @@ ul li label{
 }
 
 button{
-    background-color: blueviolet;
-    color: #fff;
+    background-color: rgb(140, 49, 226);
+    color: rgb(246, 242, 242);
     border-radius: 5rem;
     display: block;
     width: 50%;
@@ -73,10 +79,10 @@ button{
 }
 
 button:hover{
-    background-color: black;
+    background-color: rgb(14, 1, 1);
 }
 
 button:focus{
     outline: none;
-    background-color: green;
+    background-color: rgb(42, 118, 42);
 }
