@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(87.4deg, rgb(174, 82, 154) 1.9%, rgb(81, 50, 114) 49.7%, rgb(83, 54, 54) 100.5%);
+    background: linear-gradient(87.4deg, rgb(181, 151, 174) 1.9%, rgb(154, 128, 181) 49.7%, rgb(158, 112, 112) 100.5%);
     font-family: 'Poppins', sans-serif;
     display: grid;
     align-items: center;
@@ -22,16 +22,18 @@ h1{
     font-size: 3.5rem;
     font-weight: 500;
     margin-left: 3rem;
-    color: rgb(174, 82, 154);
+    color: rgb(222, 218, 221);
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-transform: uppercase;
+    /*background-color: rgb(246, 234, 234);*/
     letter-spacing: 2px;
    
 }
 
 
 .quiz-container{
-    background-color:rgb(223, 228, 247) ;
+    background-color:rgb(228, 230, 238) ;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
     width: 600px;
