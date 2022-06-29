@@ -22,11 +22,11 @@ h1{
     font-size: 3.5rem;
     font-weight: 500;
     margin-left: 3rem;
-    color: rgb(222, 218, 221);
+    color: rgb(232, 212, 226);
     border-radius: 15px;
     text-decoration: underline;
     text-transform: uppercase;
-    /*background-color: rgb(246, 234, 234);*/
+    text-shadow: rgb(20, 18, 20);
     letter-spacing: 2px;
    
 }
