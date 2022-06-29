@@ -17,6 +17,7 @@ body{
     margin: 0;
 }
 
+ /* styling to the quiz name */
 h1{
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
@@ -31,7 +32,7 @@ h1{
    
 }
 
-
+/* styling to the container that contains the quiz componets */
 .quiz-container{
     background-color:rgb(228, 230, 238) ;
     border-radius: 10px;
@@ -88,3 +89,4 @@ button:focus{
     outline: none;
     background-color: rgb(42, 118, 42);
 }
+
