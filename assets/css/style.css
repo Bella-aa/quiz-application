@@ -90,3 +90,11 @@ button:focus{
     background-color: rgb(42, 118, 42);
 }
 
+/* media queries for screens with max-width 500px and below */
+
+@media (max-width: 500px) {
+
+    * {
+        font-size: 0.7rem;
+        overflow: inherit;
+    }}
