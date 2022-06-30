@@ -90,6 +90,14 @@ button:focus{
     background-color: rgb(42, 118, 42);
 }
 
+/* styling the tooltip */
+
+.tooltip {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
 /* media queries for screens with max-width 500px and below */
 
 @media (max-width: 500px) {
@@ -99,8 +107,16 @@ button:focus{
         overflow: hidden;
     }
 
+    body{
+        align-items: baseline;
+        justify-items: center;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+    
+
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
         margin-left: -3rem;
     }
 
@@ -117,5 +133,6 @@ button:focus{
         width: 50%; 
         font-size: 15px;
         padding: 0rem;
+        margin-left: 6rem;
     }
 }
