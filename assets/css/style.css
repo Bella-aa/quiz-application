@@ -95,6 +95,27 @@ button:focus{
 @media (max-width: 500px) {
 
     * {
-        font-size: 0.7rem;
-        overflow: inherit;
-    }}
+        font-size: 10px;
+        overflow: hidden;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-left: -3rem;
+    }
+
+    .quiz-container {
+        width: 250px;
+        margin-left: -5.5rem;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    button {
+        width: 50%; 
+        font-size: 15px;
+        padding: 0rem;
+    }
+}
