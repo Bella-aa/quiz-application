@@ -90,10 +90,9 @@ button:focus{
     background-color: rgb(42, 118, 42);
 }
 
-/* styling the tooltip */
+/* styling the tip-text */
 
-.tooltip {
-    width: fit-content;
+.tip-text {
     margin: 0 auto;
     font-size: 1rem;
 }
@@ -135,4 +134,17 @@ button:focus{
         padding: 0rem;
         margin-left: 6rem;
     }
+}
+
+/* Media queries for screen sizes with max-width 300px and below */
+
+@media (max-width : 300px) {
+    h1 {
+        margin-left: -2px;
+    }
+    
+    .quiz-container {
+        margin-left: 0rem;
+    }
+    
 }
