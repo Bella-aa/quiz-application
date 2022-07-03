@@ -134,6 +134,13 @@ The following palette of colors were chosen as they were eye-catching, vibrant f
 
 ![CSS validation](https://user-images.githubusercontent.com/103276740/177057405-dc786953-9d91-4da1-a54b-4aff4f954385.png)
 
+### **JS Validation**
+ 
+* To test my Javascript, I used [JS hint Validator] (https://jshint.com/)
+
+#### ***JS report***
+![JS validation cleared](https://user-images.githubusercontent.com/103276740/177058003-2f4996fd-a913-42cc-8c9d-b7ef4f0069e5.png)
+
 ### **Contrast Validation**
 
 * To check for colour contrast issues, I used ["a11y Color Contrast Accessibility Validator"](https://color.a11y.com/) and there weree no colour contrast issues present.
@@ -152,6 +159,22 @@ The following palette of colors were chosen as they were eye-catching, vibrant f
   #### ***Mobile Lighthouse scores***
 
   ![mobile performance](https://user-images.githubusercontent.com/103276740/177057612-38d3b1aa-960a-477c-a049-fcdc1c6f2719.png)
+
+  ### **Debugging**
+
+  * There were no major isssues found within my code but when I ran my Java Script file on JS hint, the report indicated there were missing semi-colgnes within my code so I went on and added the semi colognes where they were needed.
+  
+  ## **Credits**
+
+* Thanks to my mentor (Rohit Sharma) who helped me when I was stuck and not forgeting the slack community and student support which guided me all the way learning this module.
+
+    **General reference:**
+
+* To create this project, I used reference from the walk through project and a youtube video from Coding with Nick.
+
+  
+
+
 
 
 
