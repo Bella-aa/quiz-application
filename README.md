@@ -172,6 +172,18 @@ The following palette of colors were chosen as they were eye-catching, vibrant f
 
 * To create this project, I used reference from the walk through project and a youtube video from Coding with Nick.
 
+## **Deployment**
+
+To deploy the website on GitHub pages, I used the following procedure:
+
+1. From inside the website's repository I clicked on the "Settings" tab.
+1. In the "Settings" select "Pages" on the left-handside of the page
+1. Inside "GitHub Pages" and right under it there is a section with the title "Source" with 3 options:
+    * Select Branch: main
+    * Select Folder: /(root)
+    * Click save: your website will be deployed.
+
+
   
 
 
