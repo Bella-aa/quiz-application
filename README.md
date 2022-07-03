@@ -71,6 +71,7 @@ I created the structure of the game using balsamic to make the wireframes. The d
 * I would love to add a game sounds for this quiz project probably some catchy background tunes
 * I would like to add a timer, to give a countdown for the total time required to answer each quiz question.
 * I would like to add  different quiz topic containers so that the user can choose the quiz they want based on the topics available.
+* I would like to add background images to the quiz to make it eye catching.
 * I would also like to add a leader board showing the results of all the games played
 
 
@@ -88,6 +89,37 @@ The following palette of colors were chosen as they were eye-catching, vibrant f
 ##### Typography
 
 * Throughout the site I used 'Poppins', sans-serif; as it is easy to read and I used Pacifico, Arial Helvetica for the quiz name and the next button text as it was very easy to read and stylish.
+
+-----
+
+## Technologies Used 
+
+
+- HTML5 to provide content and structure to the website.
+- CSS3 provides styles for the website. 
+- Javascript  to provide interactivity to the site. 
+- [Coolors.co](https://coolors.co/) to select colors for the website.  
+- [Google Fonts](https://fonts.google.com/) for font styles.
+- Balsamiq to create wireframes. 
+- Gitpod to create and edit the website. 
+- GibHub for hosting files and deployment of the website.
+- Google Chrome DevTools for debug and testing site.
+- GitBash to push changes to the GitHub repository.
+
+-----
+
+## **Testing and Debugging**
+
+### **Testing**
+
+* I did manual testing of the quiz application to see if all the buttons were working as expected.
+* In addition, have sent the appplication with different mobile devices to see if the application is responsive.
+* The devices that were included to check for responsiveness are iPad mini, S20 Ultra, S8 Galaxy and iPhone XR.
+* I tested the application on the following web browsers:
+  * Chrome,
+  * Firefox,
+  * Edge.
+
 
 
 
