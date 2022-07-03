@@ -120,6 +120,46 @@ The following palette of colors were chosen as they were eye-catching, vibrant f
   * Firefox,
   * Edge.
 
+## **Post developement testing**
+
+### **HTML Validation**
+
+* To test my HTML code I used [W3C HTML Validator](https://validator.w3.org/nu/) and no errors were ruturned.
+
+![HTML validation](https://user-images.githubusercontent.com/103276740/177057360-0c349bb7-a709-4ccc-905b-405dbae34a47.png)
+
+### **CSS Validation**
+
+* To test my CSS code I used [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and only one error shown.
+
+![CSS validation](https://user-images.githubusercontent.com/103276740/177057405-dc786953-9d91-4da1-a54b-4aff4f954385.png)
+
+### **Contrast Validation**
+
+* To check for colour contrast issues, I used ["a11y Color Contrast Accessibility Validator"](https://color.a11y.com/) and there weree no colour contrast issues present.
+
+![color contrast validator](https://user-images.githubusercontent.com/103276740/177057450-4d4d99ed-c5e9-47f3-bd58-a32a300ff34d.png)
+
+### **Performance**
+
+* Lighthourse performance
+  * To check the performance of the website on mobile and desktop devices, I used lighthouse to check for the performance and accessibility score and the results were great.
+
+  #### ***Desktop Lighthouse scores***
+
+  ![desktop performance](https://user-images.githubusercontent.com/103276740/177057594-ed8fe436-c02e-415f-b728-993ea0139134.png)
+
+  #### ***Mobile Lighthouse scores***
+
+  ![mobile performance](https://user-images.githubusercontent.com/103276740/177057612-38d3b1aa-960a-477c-a049-fcdc1c6f2719.png)
+
+
+
+
+
+
+
+
 
 
 
